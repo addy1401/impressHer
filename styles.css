@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffe6e6;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 90%;
+  width: 400px;
+}
+
+.romantic-gif {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.question {
+  color: #ff4d4d;
+  margin: 20px 0;
+  font-size: 24px;
+  font-family: "Indie Flower", cursive;
+}
+
+button {
+  background-color: #ff4d4d;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: "Indie Flower", cursive;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #ff6666;
+}
